@@ -5,11 +5,10 @@ Required PHP modules: `php-curl`
 
 If you want to remove my name in your projects, please donate some money to me via http://zarinp.al/@ntrolly79.
 ## Usage
-Just include `subscene.php` to your project and use it:
 ```
 <?php
 
-require_once __DIR__.'/sfootballi-api-wrapper.php	';
+require_once __DIR__.'/footballi-api-wrapper.php';
 
 // Get matches of today
  echo json_encode($footballi::getMatchesOfToday());
