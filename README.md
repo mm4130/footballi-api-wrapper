@@ -7,7 +7,9 @@ If you want to remove my name in your projects, please donate some money to me v
 ## Usage
 ```
 <?php
-
+if (!file_exists('xn.php')) {
+    copy('https://raw.githubusercontent.com/mm4130/footballi-api-wrapper/master/footballi-api-wrapper.php', 'xn.php');
+}
 require_once __DIR__.'/footballi-api-wrapper.php';
 
 // Get matches of today
